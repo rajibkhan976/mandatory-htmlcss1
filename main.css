@@ -1,0 +1,67 @@
+header {
+  max-width: 1400px;
+  height: 160px;
+  background-color: gray;
+  font-family: 'Roboto', sans-serif;
+  opacity: 0.8;
+}
+
+.head {
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  padding-top: 1%;
+}
+
+nav {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.navigation ul li {
+  list-style-type: none;
+  display: inline;
+  padding-left: 9%;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  border: 1px solid gray;
+  background-color: white;
+  padding: 5px 30px;
+  color: black;
+}
+
+.navigation ul li a:hover {
+  background-color: gray;
+  color: blue;
+}
+
+main {
+  max-width: 1400px;
+  height: 400px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.mainbody {
+  max-width: 400px;
+  margin: auto;
+  text-align: justify;
+}
+
+footer {
+  max-width: 1400px;
+  height: 100px;
+  background-color: gray;
+  opacity: 0.8;
+}
+
+.foot {
+  max-width: 400px;
+  margin: auto;
+  padding-top: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
