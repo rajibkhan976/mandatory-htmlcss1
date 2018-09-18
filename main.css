@@ -3,7 +3,7 @@ header {
   height: 160px;
   background-color: gray;
   font-family: 'Roboto', sans-serif;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .head {
@@ -34,14 +34,28 @@ nav {
 }
 
 .navigation ul li a:hover {
-  background-color: gray;
+  background-color: #A9A9A9;
   color: blue;
 }
 
 main {
   max-width: 1400px;
-  height: 400px;
+  height: 600px;
   font-family: 'Roboto', sans-serif;
+}
+
+.image {
+  max-width: 500px;
+  height: 200px;
+  background-color: gray;
+  margin: auto;
+  margin-top: 2%;
+  padding: 3% 15%;
+  box-sizing: border-box;
+}
+
+.image img {
+  border-radius: 50%;
 }
 
 .mainbody {
