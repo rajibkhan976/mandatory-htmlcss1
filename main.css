@@ -14,15 +14,20 @@ header {
 }
 
 nav {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: auto;
   padding-top: 10px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .navigation ul li {
   list-style-type: none;
   display: inline;
-  padding-left: 9%;
 }
 
 .navigation ul li a {
@@ -34,7 +39,7 @@ nav {
 }
 
 .navigation ul li a:hover {
-  background-color: #A9A9A9;
+  background-color: #70db70;
   color: blue;
 }
 
@@ -55,6 +60,9 @@ main {
 }
 
 .image img {
+  max-width: 80px;
+  height: 100%;
+  border: 1px;
   border-radius: 50%;
 }
 
@@ -62,6 +70,52 @@ main {
   max-width: 400px;
   margin: auto;
   text-align: justify;
+  padding-top: 1%;
+}
+
+.contactForm {
+  max-width: 600px;
+  margin: auto;
+  text-align: justify;
+  padding-top: 1%;
+}
+
+.favoritSite {
+  max-width: 400px;
+  margin: auto;
+  text-align: justify;
+  padding-top: 1%;
+}
+
+.favoritSite a {
+  text-decoration: none;
+}
+
+.favoritSite li {
+  padding: 1%;
+}
+
+.movies {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  padding-top: 1%;
+}
+
+.moviesTable {
+  max-width: 100%;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 10px;
+  background-color: #cccc00;
+}
+
+.moviesTable tr:nth-child(2n) {
+  background-color: #99ccff;
+}
+
+.moviesTable tr:nth-child(2n+1) {
+  background-color: #00cccc;
 }
 
 footer {

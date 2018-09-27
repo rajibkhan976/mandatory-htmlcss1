@@ -24,26 +24,30 @@
     </nav>
   </header>
   <main>
-    <div class="mainbody">
+    <div class="contactForm">
       <h2>Contact us</h2>
       <form class="contactform" action="index.html" method="post">
+        <fieldset>
+          <legend>Contact Form</legend><br>
         <label for="name">Name:
-<input type="text" name="fullname" value="">
+<input type="text" name="fullname" value="" placeholder="Full Name" required>
 </label><br><br>
         <label for="mail">Email:
-<input type="email" name="" value="">
+<input type="email" name="" value="" placeholder="Email Address" required>
         </label><br><br>
         <label for="subject">Subject:
-<select class="sub" name="subject">
+<select class="sub" name="subject" required>
   <option value="Education">Education</option>
   <option value="career">Career</option>
   <option value="counselling">Counselling</option>
 </select>
         </label><br><br>
         <label for="message">Message:
-<textarea name="message" rows="8" cols="80"></textarea>
-        </label>
+<textarea name="message" rows="8" cols="80" required></textarea>
+</label> <br> <br>
+        <input type="submit" name="" value="Submit">
       </form>
+      </fieldset>
     </div>
   </main>
   <footer>
